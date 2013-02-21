@@ -17,7 +17,7 @@
         "doctrine/orm": ">=2.2.3,<2.4-dev"
     },
     "autoload": {
-        "psr-0": { "DDMaster\\DoctrineExtensions\\PostgreSearchBundle": "" }
+        "psr-0": { "Ddmaster\\PostgreSearchBundle": "" }
     },
-    "target-dir": "DDMaster/DoctrineExtensions/PostgreSearchBundle"
+    "target-dir": "Ddmaster/PostgreSearchBundle"
 }
