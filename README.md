@@ -3,9 +3,9 @@ PostgreSearchBundle
 
 Tools to use <a target="_blank" href="http://www.postgresql.org/docs/9.1/static/textsearch.html">full-text search PostgreSQL</a> in Doctrine.
 
-### Step 1: Download DoctrineExtensionsPostgreSearchBundle using composer
+### Step 1: Download PostgreSearchBundle using composer
 
-Add DoctrineExtensionsPostgreSearchBundle in your composer.json:
+Add PostgreSearchBundle in your composer.json:
 
 ```js
 {
@@ -35,7 +35,7 @@ public function registerBundles()
 {
     $bundles = array(
         // ...
-        new DoctrineExtensions\PostgreSearchBundle\DoctrineExtensionsPostgreSearchBundle(),
+        new Ddmaster\PostgreSearchBundle\PostgreSearchBundle(),
     );
 }
 ```
