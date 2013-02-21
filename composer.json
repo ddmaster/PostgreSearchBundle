@@ -2,7 +2,7 @@
     "name": "ddmaster/postgre-search-bundle",
     "type": "symfony-bundle",
     "description": "Tools to use full-text search PostgreSQL in Doctrine.",
-    "keywords": ["doctrine2", "search", "postgresql"],
+    "keywords": ["doctrine2", "symfony2", "search", "postgresql"],
     "homepage": "https://github.com/ddmaster/PostgreSearchBundle",
     "license": "MIT",
     "authors": [
