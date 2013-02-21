@@ -58,3 +58,20 @@ doctrine:
                         TSQUERY: Ddmaster\PostgreSearchBundle\DQL\TsqueryFunction
                         TSRANK: Ddmaster\PostgreSearchBundle\DQL\TsrankFunction
 ```
+
+### Step 4: Use in DQL
+
+```php
+    $searchQuery = 'family | history';
+    $em = $this->getDoctrine()->getManager();
+    $query = $em->createQuery(
+        'SELECT b.id, sum(TSRANKCD(b.searchFts, :searchQuery)) as rank 
+            FROM DemoSearchBundle:Books b
+            WHERE TSQUERY( b.searchFts, :searchQuery ) = true
+            GROUP BY b.id
+            ORDER BY rank DESC')
+        ->setParameter('searchQuery', $searchQuery)
+    ;
+
+    $result = $query->getArrayResult();
+```
