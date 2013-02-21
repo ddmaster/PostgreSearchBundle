@@ -42,7 +42,7 @@ public function registerBundles()
 
 ### Step 3: Configure
 
-Add in your config.yml:
+Add in your config.yaml:
 
 ```yml
 # Doctrine Configuration
