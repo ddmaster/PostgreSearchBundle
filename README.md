@@ -74,3 +74,21 @@ $query = $em->createQuery(
 ;
 $result = $query->getArrayResult();
 ```
+
+Result example:
+
+```yml
+Array
+(
+    [0] => Array
+        (
+            [id] => 2
+            [rank] => 0.0607927
+        )
+    [1] => Array
+        (
+            [id] => 3
+            [rank] => 0.0303964
+        )
+)
+```
