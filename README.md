@@ -63,7 +63,17 @@ doctrine:
                         TSRANK: Ddmaster\PostgreSearchBundle\DQL\TsrankFunction
 ```
 
-### Step 4: Use in DQL
+### Step 4: Mapping example
+```php
+/**
+ * @var string
+ *
+ * @ORM\Column(name="search_fts", type="tsvector", nullable=true)
+ */
+private $searchFts;
+```
+
+### Step 5: Use in DQL
 
 ```php
 $searchQuery = 'family | history';
