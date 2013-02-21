@@ -25,7 +25,7 @@ class TsrankFunction extends FunctionNode
     public function getSql(\Doctrine\ORM\Query\SqlWalker $sqlWalker)
     {
         return 
-        	'ts_rank_cd(' . $this->fieldName->dispatch($sqlWalker) . ', ' .
+        	'ts_rank(' . $this->fieldName->dispatch($sqlWalker) . ', ' .
             ' to_tsquery(' . $this->queryString->dispatch($sqlWalker) . '))';
     }
 }
