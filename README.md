@@ -54,6 +54,8 @@ doctrine:
     dbal:
         types:
             tsvector: Ddmaster\PostgreSearchBundle\Dbal\TsvectorType
+        mapping_types:
+            tsvector: tsvector
     orm:
         entity_managers:
             default:
