@@ -39,3 +39,22 @@ public function registerBundles()
     );
 }
 ```
+
+### Step 3: Configure
+
+Add in your config.yml:
+
+```yml
+# Doctrine Configuration
+doctrine:
+    dbal:
+        types:
+            tsvector: Ddmaster\PostgreSearchBundle\Dbal\TsvectorType
+    orm:
+        entity_managers:
+            default:
+                dql:
+                    string_functions:
+                        TSQUERY: Ddmaster\PostgreSearchBundle\DQL\TsqueryFunction
+                        TSRANK: Ddmaster\PostgreSearchBundle\DQL\TsrankFunction
+```
