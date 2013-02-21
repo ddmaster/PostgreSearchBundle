@@ -1,5 +1,5 @@
 <?php
-namespace Innowo\SearchBundle\DQL;
+namespace Ddmaster\PostgreSearchBundle\DQL;
 
 use Doctrine\ORM\Query\AST\Functions\FunctionNode;
 use Doctrine\ORM\Query\Lexer;

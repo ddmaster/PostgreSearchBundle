@@ -1,9 +1,9 @@
 <?php
 
-namespace DoctrineExtensions\PostgreSearchBundle;
+namespace Ddmaster\PostgreSearchBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class DoctrineExtensionsPostgreSearchBundle extends Bundle
+class PostgreSearchBundle extends Bundle
 {
 }

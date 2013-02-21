@@ -1,5 +1,5 @@
 <?php
-namespace Innowo\SearchBundle\Dbal;
+namespace Ddmaster\PostgreSearchBundle\Dbal;
  
 use Doctrine\DBAL\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;
