@@ -1,0 +1,4 @@
+DoctrinePostgreFullTextSearchBundle
+===================================
+
+In development
