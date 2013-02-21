@@ -2,7 +2,9 @@ PostgreSearchBundle
 ===================================
 
 Tools to use <a target="_blank" href="http://www.postgresql.org/docs/9.1/static/textsearch.html">full-text search PostgreSQL</a> in Doctrine.
+
 Added type 'tsvector' to be used in the mapping.
+
 Added functions 'to_tsquery' and 'ts_rank' to be used in the DQL.
 
 ### Step 1: Download PostgreSearchBundle using composer
@@ -44,7 +46,7 @@ public function registerBundles()
 
 ### Step 3: Configure
 
-Add in your config.yaml:
+Add in your config.yml:
 
 ```yml
 # Doctrine Configuration
