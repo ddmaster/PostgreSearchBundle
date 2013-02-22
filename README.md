@@ -1,7 +1,7 @@
 PostgreSearchBundle
 ===================================
 
-Symfony2 bundle with tools <a target="_blank" href="http://www.postgresql.org/docs/9.1/static/textsearch.html">full-text search PostgreSQL</a> PostgreSQL in Doctrine 2.
+Symfony2 bundle with tools <a target="_blank" href="http://www.postgresql.org/docs/9.1/static/textsearch.html">full-text search PostgreSQL</a> in Doctrine 2.
 
 Added type 'tsvector' to be used in the mapping.
 
