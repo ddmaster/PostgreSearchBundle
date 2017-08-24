@@ -5,6 +5,7 @@
     "keywords": ["doctrine2", "symfony2", "search", "postgresql"],
     "homepage": "https://github.com/ddmaster/PostgreSearchBundle",
     "license": "MIT",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Gruzd Sergey",
