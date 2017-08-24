@@ -3,9 +3,10 @@
     "type": "symfony-bundle",
     "description": "Tools to use full-text search PostgreSQL in Doctrine.",
     "keywords": ["doctrine2", "symfony2", "search", "postgresql"],
-    "homepage": "https://github.com/ddmaster/PostgreSearchBundle",
+    "homepage": "https://github.com/wohlrajh/PostgreSearchBundle",
     "license": "MIT",
     "minimum-stability": "dev",
+    "prefer-stable": true,
     "authors": [
         {
             "name": "Gruzd Sergey",
