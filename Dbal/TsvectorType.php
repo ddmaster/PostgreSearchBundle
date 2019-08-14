@@ -38,4 +38,9 @@ class TsvectorType extends Type
         }
         return $value;
     }
+ 
+    public function requiresSQLCommentHint(AbstractPlatform $platform)
+    {
+        return true;
+    }
 }
