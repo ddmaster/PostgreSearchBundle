@@ -81,7 +81,7 @@ private $searchFts;
 $searchQuery = 'family | history';
 $em = $this->getDoctrine()->getManager();
 $query = $em->createQuery(
-    'SELECT b.id, sum(TSRANKCD(b.searchFts, :searchQuery)) as rank 
+    'SELECT b.id, sum(TSRANK(b.searchFts, :searchQuery)) as rank 
         FROM DemoSearchBundle:Books b
         WHERE TSQUERY( b.searchFts, :searchQuery ) = true
         GROUP BY b.id
